@@ -11,11 +11,12 @@
   <body>
     <h1>Hello World</h1>
     
-<pre class="embedcurl">curl -d  {"Carrier": "T-Mobile","CellTowers":[{"Age":0,"CellId":"39627456","LocationAreaCode":"40495","MobileCountryCode":"310","MobileNetworkCode":"012","SignalStrength":-95,"timingAdvance":0}],"HomeMobileCountryCode":"310","HomeMobileNetworkCode":"012","RadioType":"gsm"} -H "Content-Type: application/json" -i "https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyC7YK64AOfkgPrPD8BxxlqkHbw9A_uTLM8"</pre>
+    <pre class="embedcurl">curl -d {"Carrier": "T-Mobile","CellTowers":[{"Age":0,"CellId":"39627456","LocationAreaCode":"40495","MobileCountryCode":"310","MobileNetworkCode":"012","SignalStrength":-95,"timingAdvance":0}],"HomeMobileCountryCode":"310","HomeMobileNetworkCode":"012","RadioType":"gsm"}
+-H "Content-Type: application/json" -i "https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyC7YK64AOfkgPrPD8BxxlqkHbw9A_uTLM8"</pre>
 
 <!-- You only need to reference this script once per page. -->
 <script src="https://www.embedcurl.com/embedcurl.min.js" async></script>
-
+ 
   </body>
 </html>
     
